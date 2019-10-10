@@ -19,4 +19,9 @@ public class TestController {
     public String test(){
         return "您好";
     }
+
+    @RequestMapping(value="/push")
+    public String push(){
+        return "push一下这么难的吗?";
+    }
 }
