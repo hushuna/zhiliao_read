@@ -17,6 +17,11 @@ public class TestController {
 
     @RequestMapping(value = "/test")
     public String test(){
-        return "hello world";
+        return "您好";
+    }
+
+    @RequestMapping(value="/push")
+    public String push(){
+        return "push一下这么难的吗?";
     }
 }
