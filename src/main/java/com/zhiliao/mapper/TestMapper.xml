@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zhiliao.dao.TestDao">
+
+    <insert id="insert">
+        insert into `lock`(id) values (1)
+    </insert>
+    <delete id="delete">
+        delete from `lock` where id=1
+    </delete>
+    <select id="getId" resultType="int">
+        select id from `lock` where id=1
+    </select>
+
+</mapper>

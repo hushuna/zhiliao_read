@@ -10,4 +10,10 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface TestDao {
 
+    int insert();
+
+    int delete();
+
+    int getId();
+
 }
